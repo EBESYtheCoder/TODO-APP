@@ -24,7 +24,7 @@ const Todo = () => {
   const deleteTodo = (id)=> {
     setTodoList((prvTodos)=> {
       return prvTodos.filter((todo)=> todo.id !== id)
-    })
+    });
   }
 
   const toggle = (id)=> {
